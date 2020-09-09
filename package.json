@@ -1,0 +1,23 @@
+{
+  "name": "first-families-api",
+  "version": "1.0.0",
+  "description": "An API containing biographical information on the presidents of the United States and their immediate families",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iandemed/first-families-api.git"
+  },
+  "author": "Ian de Medeiros (iandemed)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iandemed/first-families-api/issues"
+  },
+  "homepage": "https://github.com/iandemed/first-families-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.3"
+  }
+}
