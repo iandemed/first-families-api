@@ -1,0 +1,44 @@
+[
+    {
+        "name": "George Washington",
+        "partner": "Martha Dandridge",
+        "born": "1732-02-22",
+        "died": "1799-12-14",
+        "tenure": 8
+    },
+    {
+        "name": "John Adams",
+        "partner": "Abigail Smith",
+        "born": "1735-10-30",
+        "died": "1826-07-04",
+        "tenure": 4
+    },
+    {
+        "name": "Thomas Jefferson",
+        "partner": "Martha Wayles",
+        "born": "1743-04-13",
+        "died": "1826-07-04",
+        "tenure": 8
+    },
+    {
+        "name": "James Madison",
+        "partner": "Dolley Todd",
+        "born": "1751-03-16",
+        "died": "1836-06-28",
+        "tenure": 8
+    },
+    {
+        "name": "James Monroe",
+        "partner": "Elizabeth Kortright",
+        "born": "1758-04-28",
+        "died": "1831-07-04",
+        "tenure": 8
+    },
+    {
+        "name": "John Quincy Adams",
+        "partner": "Louisa Johnson",
+        "born": "1767-07-11",
+        "died": "1848-02-23",
+        "tenure": 4
+    }
+]
