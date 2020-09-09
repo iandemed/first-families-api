@@ -1,7 +1,16 @@
 const mongoose = require("mongoose")
 
+
+let mongoURI = ""
+
+if(process.env.NODE_ENV === "production"){
+    mongoURI = process.env.DB_URL
+} else{
+    mongoURI = "mongodb://localhost/first-family-api" 
+}
+
 mongoose
-    .connect("mongodb://localhost/first-family-api",
+    .connect(mongoURI,
             { useNewUrlParser: true,
               useUnifiedTopology: true})
     .then(() => {
