@@ -6,5 +6,11 @@ module.exports ={
             .then(presidents => {
                 res.json(presidents)
             })
-    }
+    },
+    showId: (req, res) => {
+        President.findById(req.params.id)
+            .then(president => {
+                res.json(president)
+            })
+    } 
 }

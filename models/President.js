@@ -2,6 +2,7 @@ const mongoose = require('../db/connection')
 const Schema = mongoose.Schema
 
 const President = new Schema({
+    _id: String,
     name: String,
     partner: String,
     born: Date,
