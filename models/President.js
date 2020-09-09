@@ -5,8 +5,8 @@ const President = new Schema({
     _id: String,
     name: String,
     partner: {type: [{type: String, ref: "Partner"}],
-              default: undefined},
-    born: Date,
+              default: undefined}, // Arrays that are not included are left as empty unless specified otherwise
+    born: {type: Date, required: true},
     died: Date,
     tenure: Number
 })

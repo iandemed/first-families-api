@@ -4,8 +4,8 @@
 const Presidents = require('../models/President')
 const presidentData = require('./presidents.json')
 
-const Partners = require('../models/Partner')
-const partnerData = require('./partners.json')
+const FirstSpouses = require('../models/FirstSpouse')
+const spouseData = require('./partners.json')
 
 Presidents.deleteMany({}).then(
     Presidents.create(presidentData)
@@ -17,10 +17,10 @@ Presidents.deleteMany({}).then(
         })
 )
 
-Partners.deleteMany({}).then(
-    Partners.create(partnerData)
+FirstSpouses.deleteMany({}).then(
+    FirstSpouses.create(spouseData)
         .then(() => {
-            console.log(partnerData)
+            console.log(spouseData)
         })
         .catch(err => {
             console.log("Failed to seed data.", err)

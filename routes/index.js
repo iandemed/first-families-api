@@ -5,7 +5,7 @@ let router = new express.Router()
 const presidentController = require('../controllers/president')
 
 router.use('/president', require('./president'))
-router.use('/partner', require('./partner'))
+router.use('/firstSpouse', require('./firstSpouse'))
 router.get('/', presidentController.index)
 
 module.exports = router

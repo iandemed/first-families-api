@@ -1,10 +1,10 @@
-const Partners = require('../models/Partner')
+const FirstSpouses = require('../models/FirstSpouse')
 const Presidents = require('../models/President')
 
-Partners.find({})
+FirstSpouses.find({})
     .populate('partner')
-    .then(partners => partners.forEach( (partner) => {
-        console.log(partner.partner)
+    .then(spouses => spouses.forEach( (spouse) => {
+        console.log(spouse.partner)
     }))
 
 
