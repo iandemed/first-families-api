@@ -1,43 +1,43 @@
 [
     {
         "_id": "1p",
-        "partner": "George Washington",
         "name": "Martha Dandridge",
+        "partner": "George Washington",
         "born": "1731-06-02",
         "died": "1802-05-22"
     },
     {
         "_id": "2p",
-        "partner": "John Adams",
         "name": "Abigail Smith",
+        "partner": "John Adams",
         "born": "1744-11-22",
         "died": "1818-10-28"
     },
     {
         "_id": "3p",
-        "partner": "Thomas Jefferson",
         "name": "Martha Wayles",
+        "partner": "Thomas Jefferson",
         "born": "1748-10-19",
         "died": "1782-09-06"
     },
     {
         "_id": "4p",
-        "partner": "James Madison",
         "name": "Dolley Todd",
+        "partner": "James Madison",
         "born": "1768-05-20",
         "died": "1849-07-12"
     },
     {
         "_id": "5p",
-        "partner": "James Monroe",
         "name": "Elizabeth Kortright",
+        "partner": "James Monroe",
         "born": "1768-06-30",
         "died": "1830-09-23"
     },
     {
         "_id": "6p",
-        "partner": "John Quincy Adams",
         "name": "Louisa Johnson",
+        "partner": "John Quincy Adams",
         "born": "1775-02-12",
         "died": "1852-05-15"
     }
