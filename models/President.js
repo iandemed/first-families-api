@@ -8,3 +8,5 @@ const President = new Schema({
     died: Date,
     tenure: Number
 })
+
+module.exports = mongoose.model('President', President)

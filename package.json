@@ -4,7 +4,8 @@
   "description": "An API containing biographical information on the presidents of the United States and their immediate families",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node ./db/seed.js"
   },
   "repository": {
     "type": "git",
