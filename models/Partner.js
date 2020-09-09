@@ -4,7 +4,7 @@ const Schema = mongoose.Schema
 const Partner = new Schema({
     _id: String,
     name: String,
-    partner: String,
+    partner: [{type: String, ref: "President"}],
     born: Date,
     died: Date,
 })

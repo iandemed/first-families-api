@@ -1,3 +1,6 @@
+
+/* Seed our database with the first six presidents and their partners */
+
 const Presidents = require('../models/President')
 const presidentData = require('./presidents.json')
 
