@@ -5,7 +5,7 @@ const Presidents = require('../models/President')
 const presidentData = require('./presidents.json')
 
 const FirstSpouses = require('../models/FirstSpouse')
-const spouseData = require('./partners.json')
+const spouseData = require('./firstSpouses.json')
 
 Presidents.deleteMany({}).then(
     Presidents.create(presidentData)

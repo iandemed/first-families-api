@@ -3,12 +3,14 @@ const President = require('../models/President')
 module.exports ={
     index: (req, res) => {
         President.find({})
+            .populate('partner')
             .then(presidents => {
                 res.json(presidents)
             })
     },
     showId: (req, res) => {
         President.findById(req.params.id)
+            .populate('partner')
             .then(president => {
                 res.json(president)
             })

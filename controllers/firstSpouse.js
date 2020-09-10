@@ -3,12 +3,14 @@ const FirstSpouse = require('../models/FirstSpouse')
 module.exports ={
     index: (req, res) => {
         FirstSpouse.find({})
+            .populate('partner')
             .then(spouses => {
                 res.json(spouses)
             })
     },
     showId: (req, res) => {
         FirstSpouse.findById(req.params.id)
+            .populate('partner')
             .then(spouse => {
                 res.json(spouse)
             })
