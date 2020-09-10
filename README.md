@@ -1,5 +1,30 @@
 # First Families API
 
+## Overview
+
+I created the First Families API to hold basic biographical information on each of the presidents and their descendants.
+
+In that regard, unless they are related to another president (i.e. George W. Bush, John Quincy Adams, and Benjamin Harrison), presidents are considered the first generation.
+
+Often we celebrate (or denouce) presidents for their political accomplishments and ignore the fact that they are also human-beings with families, that their legacy is more than just their policy agendas, and that their influence and power may also benefit their direct descendants.
+
+## Table of Contents
+- [First Families API](#first-families-api)
+  * [Techincal Requirements](#techincal-requirements)
+    + [Technologies Used](#technologies-used)
+    + [Dependencies](#dependencies)
+    + [Authentication](#authentication)
+  * [Resource List](#resource-list)
+    + [President](#president)
+      - [GET /president/{_id}](#get--president---id-)
+      - [President](#president-1)
+    + [First Spouse](#first-spouse)
+      - [GET /firstSpouse/{_id}](#get--firstspouse---id-)
+      - [First Spouse](#first-spouse-1)
+  * [Additional Notes](#additional-notes)
+    + [Addressing Sally Hemmings and Thomas Jefferson's Legacy](#addressing-sally-hemmings-and-thomas-jefferson-s-legacy)
+
+
 ## Techincal Requirements
 
 ### Technologies Used
