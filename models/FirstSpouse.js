@@ -8,7 +8,8 @@ const FirstSpouse = new Schema({
      and their direct descendants. Therefore there would not be any partner unless it was in relation to
      the president or one of their children. */
     partner: {type: [{type: String, ref: "President"}],
-              required: true}, 
+              required: true,
+              default: undefined} ,
     born: {type: Date, required: true},
     died: Date,
 })
