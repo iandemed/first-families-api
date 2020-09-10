@@ -57,6 +57,15 @@ Theere are currently two principal collections in the First Family API: the pres
 
 The root directory for each collection (`/president` and `/firstSpouse` respectivley) provides a JSON containing all of the entries in the database. Below are examples of the HTTP requests that you can send into the API along with the output you may expect to recieve.
 
+
+|**Route name**| **URL** |**HTTP Verb** | **Description** |
+|---|---|---|---|
+| Index | /{resource} | GET | Display a list of all Presidents or First Spouses |
+| Show ID| /{resource}/{:id} | GET | Display a specific President or First Spouse based on their ID |
+| Create | /{resource} | POST | Add new President or First Spouse to the database |
+| Edit By Id | /{resource}/{:id} | PUT | Update a particular President or First Spouse |
+| Delete | /{resource}/{:id} | DELETE | Delete a particular President or First Spouse |  
+
 ### President
 
 #### GET /president/{_id}
@@ -92,6 +101,9 @@ The root directory for each collection (`/president` and `/firstSpouse` respecti
 | `born` | Date |Date the president was born |
 | `died` | Date |Date the president died |
 | `tenure` | Number |Number of years served in office|
+
+Notes:
+* `born` is a **required** field
 
 ### First Spouse
 
@@ -131,6 +143,7 @@ The root directory for each collection (`/president` and `/firstSpouse` respecti
   
 Notes:
 * `partner` is a **required** field. By nature of the position, the first spouse is always married to a president of the United States. The opposite is not always true (James Buchanan was famously [a bachelor](https://en.wikipedia.org/wiki/James_Buchanan#Romantic_life))
+* `born` is a **required** field
 
 ## Additional Notes
 
