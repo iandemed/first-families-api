@@ -28,7 +28,9 @@ As of the most current release of this API, there is no documentation. The First
 
 ## Resource List  
 
-Theere are currently two principal collections in the First Family API: the presidents themselves and the First Spouses. The exact structure of the of the data is listed below:
+Theere are currently two principal collections in the First Family API: the presidents themselves and the First Spouses.  
+
+The root directory for each collection (`/president` and `/firstSpouse` respectivley) provides a JSON containing all of the entries in the database. Below are examples of the HTTP requests that you can send into the API along with the output you may expect to recieve.
 
 ### President
 
