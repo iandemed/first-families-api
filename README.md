@@ -58,7 +58,7 @@ Theere are currently two principal collections in the First Family API: the pres
 #### President
 
 |**Variable**| **Type** |**Description** |
-|---|---|
+|---|---|---|
 | `_id` | String |Key to the President collection, corresponds to chronological order of *first* time a president took office|
 | `name` | String |Full name used by the president|
 | `partner` | Array of References |Array of references to the president's previous partners |
@@ -95,7 +95,7 @@ Theere are currently two principal collections in the First Family API: the pres
 #### First Spouse
 
 |**Variable**| **Type** | **Description** |
-|---|---|
+|---|---|---|
 | `_id` | String |Key to the FirstSpouse collection, related to the key from the President collection|
 | `name` | String |Full maiden used by the first spouse|
 | `partner` | Array of References |Array of references to the first spouse's previous partners |
